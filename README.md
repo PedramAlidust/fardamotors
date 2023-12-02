@@ -42,7 +42,7 @@ node --version
 
 ``` bash
 
-git clone http://azuredevops/TFS/Farda_HomeService_Appication/_git/Farda_HomeService_Appication
+git clone https://github.com/PedramAlidust/fardamotors.git
 
 
 ```
@@ -131,4 +131,4 @@ pm2 status
 
 # application link:
 
-visit at [https://service.fardaco.com/app](https://service.fardaco.com/app).
+visit at [https://fardamotors.theresume.ir/app](https://fardamotors.theresume.ir/app).
