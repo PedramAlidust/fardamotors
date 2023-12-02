@@ -1,0 +1,173 @@
+<template>
+  <section class="ContentHeight">
+    <!-- content wraper -->
+    <div style="min-height: 100vh" class="px-4">
+      <!-- myinfo section -->
+      <div class="container mt-5 shadow px-4 ReqSection text-center py-4">
+        <p class="fw-bold">اسم رمز</p>
+      </div>
+     <div class="container">
+        <!-- Nationality Code -->   
+        <input v-model="Password" placeholder="رمز" type="password" class="mt-5 form-control" id="Kilumeter">
+        <input v-model="ConfirmPassword" placeholder="تكرار رمز" type="password" class="mt-2 form-control" id="Kilumeter">
+        <button @click="ChangePass" type="button" class="py-3 BtnRegStyle mt-4 btn">ثبت اسم رمز</button>
+      </div>
+    </div>
+    <!-- ChangePass Alert -->
+        <div class="container alert alert-success ResultPopUp mt-4"
+          v-if="DspChangePassRes.Message && DspInfo">
+          <div class="d-flex justify-content-between">
+            <p>
+              {{ DspChangePassRes.Message }}
+            </p>
+            <img @click="HideInfo" class="CloseBtn" src="~/assets/pictures/close.png" alt="CloseButton">
+          </div>         
+        </div>
+  </section>
+</template>
+
+<script>
+import { mapActions, mapGetters} from "vuex";
+
+export default {
+  layout: "footer",
+  data() {
+    return {
+      DspInfo: true,
+      NationalId: '', 
+      Password: '', 
+      ConfirmPassword: ''
+    }
+  }, 
+   computed: {
+    ...mapGetters(["DspChangePassRes"]),
+  },
+  methods: {
+    ...mapActions(["CallChangePassword", "SetClearChangePassStatus"]),
+     ChangePass() {
+      if(this.Password == this.ConfirmPassword) {
+        this.CallChangePassword({
+          token: this.$cookiz.get("jwt-token"),
+          password: this.Password
+        })
+      } else {
+        alert('پسورد ها يكسان نيست')
+      }
+    }, 
+     HideInfo() {
+      this.DspInfo = false;
+      this.SetClearChangePassStatus()
+    }
+  },
+};
+</script>
+
+<style scoped>
+/* general */
+
+input#Kilumeter {
+    border: 1px solid rgba(43,57,206,.14902);
+}
+
+.CloseBtn {
+  width: 22px;
+  cursor: pointer;
+}
+
+.ResultPopUp {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+}
+
+.Alert {
+  font-size: 10pt;
+  text-align: justify;
+  text-align-last: right;
+}
+
+input::placeholder {
+  text-align: right;
+  color: #403362;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.BtnRegStyle {
+  font-size: 10pt;
+  width: 100%;
+  color: #fff;
+  background-image: linear-gradient(#0569A3, #1964E8, #005DFF);
+  border-radius: 10px !important;
+}
+
+
+.BtnOutStyle {
+  font-size: 10pt;
+  width: 40%;
+  color: #fff;
+  background-image: linear-gradient(#0569A3, #1964E8, #005DFF);
+  border-radius: 10px !important;
+}
+
+.form-control {
+  border: 1px solid #2B39CE26;
+  border-color: none;
+  box-shadow: none;
+  height: 50px;
+  border-radius: 7px;
+}
+
+hr {
+  background-color: #9f9f9f;
+  height: 3px;
+}
+
+.TrackingCode {
+  font-size: 10pt;
+}
+
+.ContentHeight {
+  background-image: url("~/assets/pictures/background.jpg");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+
+/* make req section  */
+.ReqSection {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.ReqTxt {
+  font-size: 9pt;
+  color: #403362 !important;
+  font-weight: bold;
+}
+
+/* req status */
+.ReqStatus {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.CarNoTxt {
+  font-size: 8pt;
+}
+
+.CarNo {
+  margin-top: 5px;
+  font-weight: bold;
+  color: #3c3951;
+  font-size: 10pt;
+}
+
+.CurrentServiceStatus {
+  font-size: 10pt;
+}
+
+</style>

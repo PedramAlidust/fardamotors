@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.673" height="42" viewBox="0 0 32.673 42">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5087e5"/>
+      <stop offset="1" stop-color="#2d4ab1"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_161781" data-name="Group 161781" transform="translate(-344.183 -709.026)">
+    <path id="Path_83240" data-name="Path 83240" d="M358.436,790.221v1.8h15.549v-1.8H358.436Z" transform="translate(-1.689 -59.642)" fill="url(#linear-gradient)"/>
+    <path id="Path_83245" data-name="Path 83245" d="M358.436,778.937v1.8h24.238v-1.8H358.436Z" transform="translate(-10.378 -51.353)" fill="url(#linear-gradient)"/>
+    <path id="Path_83246" data-name="Path 83246" d="M358.436,722.515v1.8h10.444v-1.8H358.436Z" transform="translate(3.202 -9.822)" fill="url(#linear-gradient)"/>
+    <path id="Path_83247" data-name="Path 83247" d="M358.436,767.652v1.8h24.238v-1.8H358.436Z" transform="translate(-10.378 -43.064)" fill="url(#linear-gradient)"/>
+    <path id="Path_83248" data-name="Path 83248" d="M358.436,733.8v1.8h24.238v-1.8H358.436Z" transform="translate(-10.378 -18.038)" fill="url(#linear-gradient)"/>
+    <path id="Path_83249" data-name="Path 83249" d="M373.459,709.026H347.58a3.4,3.4,0,0,0-3.4,3.4v35.205a3.4,3.4,0,0,0,3.4,3.4h25.878a3.4,3.4,0,0,0,3.4-3.4V712.423A3.4,3.4,0,0,0,373.459,709.026Zm1.648,38.6a1.65,1.65,0,0,1-1.648,1.648H347.58a1.65,1.65,0,0,1-1.648-1.648V712.423a1.65,1.65,0,0,1,1.648-1.648h25.878a1.65,1.65,0,0,1,1.648,1.648Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    <path id="Path_83250" data-name="Path 83250" d="M358.436,745.084v1.8h24.238v-1.8H358.436Z" transform="translate(-10.378 -26.486)" fill="url(#linear-gradient)"/>
+    <path id="Path_83251" data-name="Path 83251" d="M358.436,756.368v1.8h24.238v-1.8H358.436Z" transform="translate(-10.378 -34.775)" fill="url(#linear-gradient)"/>
+    <path id="award" d="M14.408,11.827l-1.73-2.988a4.405,4.405,0,0,0,.536-2.12,4.469,4.469,0,1,0-8.939,0,4.405,4.405,0,0,0,.536,2.12l-1.73,2.988a.638.638,0,0,0,.555.958H5.469L6.4,14.355a.669.669,0,0,0,.555.319h.089a.638.638,0,0,0,.466-.313l1.232-2.12,1.232,2.139a.638.638,0,0,0,.466.306h.089a.638.638,0,0,0,.447-.179.555.555,0,0,0,.109-.134L12.02,12.8h1.832a.648.648,0,0,0,.555-.977ZM6.951,12.8l-.568-.951a.638.638,0,0,0-.543-.313h-1.1l.913-1.583a4.469,4.469,0,0,0,2.279,1.175ZM8.745,9.912a3.192,3.192,0,1,1,3.192-3.192A3.192,3.192,0,0,1,8.745,9.912ZM11.65,11.54a.638.638,0,0,0-.543.313l-.568.951-.97-1.692a4.508,4.508,0,0,0,2.273-1.175l.913,1.583Z" transform="translate(345.678 732.71)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

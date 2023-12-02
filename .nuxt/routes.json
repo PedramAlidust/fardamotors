@@ -1,0 +1,184 @@
+[
+  {
+    "name": "Home",
+    "path": "/Home",
+    "component": "/home/pedram/Projects/FardaClient/pages/Home.vue",
+    "chunkName": "pages/Home",
+    "_name": "_7c2c93be"
+  },
+  {
+    "name": "Notifications",
+    "path": "/Notifications",
+    "component": "/home/pedram/Projects/FardaClient/pages/Notifications/index.vue",
+    "chunkName": "pages/Notifications/index",
+    "_name": "_770f1f5c"
+  },
+  {
+    "name": "Profile",
+    "path": "/Profile",
+    "component": "/home/pedram/Projects/FardaClient/pages/Profile/index.vue",
+    "chunkName": "pages/Profile/index",
+    "_name": "_54aa0d9d"
+  },
+  {
+    "name": "Recalls",
+    "path": "/Recalls",
+    "component": "/home/pedram/Projects/FardaClient/pages/Recalls/index.vue",
+    "chunkName": "pages/Recalls/index",
+    "_name": "_5bfb1794"
+  },
+  {
+    "name": "Register",
+    "path": "/Register",
+    "component": "/home/pedram/Projects/FardaClient/pages/Register/index.vue",
+    "chunkName": "pages/Register/index",
+    "_name": "_702d0d05"
+  },
+  {
+    "name": "theContracts",
+    "path": "/theContracts",
+    "component": "/home/pedram/Projects/FardaClient/pages/theContracts/index.vue",
+    "chunkName": "pages/theContracts/index",
+    "_name": "_d8a62a9c"
+  },
+  {
+    "name": "Info-AboutApp",
+    "path": "/Info/AboutApp",
+    "component": "/home/pedram/Projects/FardaClient/pages/Info/AboutApp.vue",
+    "chunkName": "pages/Info/AboutApp",
+    "_name": "_cb5cf034"
+  },
+  {
+    "name": "Info-AboutUs",
+    "path": "/Info/AboutUs",
+    "component": "/home/pedram/Projects/FardaClient/pages/Info/AboutUs.vue",
+    "chunkName": "pages/Info/AboutUs",
+    "_name": "_79bd44e9"
+  },
+  {
+    "name": "Info-Dealers",
+    "path": "/Info/Dealers",
+    "component": "/home/pedram/Projects/FardaClient/pages/Info/Dealers.vue",
+    "chunkName": "pages/Info/Dealers",
+    "_name": "_6a9e1bd8"
+  },
+  {
+    "name": "Login-codelogin",
+    "path": "/Login/codelogin",
+    "component": "/home/pedram/Projects/FardaClient/pages/Login/codelogin.vue",
+    "chunkName": "pages/Login/codelogin",
+    "_name": "_7eedf3e7"
+  },
+  {
+    "name": "Login-ConfirmCodeLogin",
+    "path": "/Login/ConfirmCodeLogin",
+    "component": "/home/pedram/Projects/FardaClient/pages/Login/ConfirmCodeLogin.vue",
+    "chunkName": "pages/Login/ConfirmCodeLogin",
+    "_name": "_b45e737e"
+  },
+  {
+    "name": "Login-ConfirmSms",
+    "path": "/Login/ConfirmSms",
+    "component": "/home/pedram/Projects/FardaClient/pages/Login/ConfirmSms.vue",
+    "chunkName": "pages/Login/ConfirmSms",
+    "_name": "_6b5b9544"
+  },
+  {
+    "name": "map-themap",
+    "path": "/map/themap",
+    "component": "/home/pedram/Projects/FardaClient/pages/map/themap.vue",
+    "chunkName": "pages/map/themap",
+    "_name": "_1feb6d46"
+  },
+  {
+    "name": "Profile-FurtherInfo",
+    "path": "/Profile/FurtherInfo",
+    "component": "/home/pedram/Projects/FardaClient/pages/Profile/FurtherInfo.vue",
+    "chunkName": "pages/Profile/FurtherInfo",
+    "_name": "_77dab946"
+  },
+  {
+    "name": "Profile-MyCars",
+    "path": "/Profile/MyCars",
+    "component": "/home/pedram/Projects/FardaClient/pages/Profile/MyCars.vue",
+    "chunkName": "pages/Profile/MyCars",
+    "_name": "_ad623960"
+  },
+  {
+    "name": "Profile-MyInfo",
+    "path": "/Profile/MyInfo",
+    "component": "/home/pedram/Projects/FardaClient/pages/Profile/MyInfo.vue",
+    "chunkName": "pages/Profile/MyInfo",
+    "_name": "_98d72542"
+  },
+  {
+    "name": "Profile-Password",
+    "path": "/Profile/Password",
+    "component": "/home/pedram/Projects/FardaClient/pages/Profile/Password.vue",
+    "chunkName": "pages/Profile/Password",
+    "_name": "_d7d54080"
+  },
+  {
+    "name": "Profile-Support",
+    "path": "/Profile/Support",
+    "component": "/home/pedram/Projects/FardaClient/pages/Profile/Support.vue",
+    "chunkName": "pages/Profile/Support",
+    "_name": "_9361758c"
+  },
+  {
+    "name": "ServiceStatus-HomeServiceStatus",
+    "path": "/ServiceStatus/HomeServiceStatus",
+    "component": "/home/pedram/Projects/FardaClient/pages/ServiceStatus/HomeServiceStatus.vue",
+    "chunkName": "pages/ServiceStatus/HomeServiceStatus",
+    "_name": "_09e655b1"
+  },
+  {
+    "name": "ServiceStatus-ReserveStatus",
+    "path": "/ServiceStatus/ReserveStatus",
+    "component": "/home/pedram/Projects/FardaClient/pages/ServiceStatus/ReserveStatus.vue",
+    "chunkName": "pages/ServiceStatus/ReserveStatus",
+    "_name": "_3c693a97"
+  },
+  {
+    "name": "TheReports-Acceptions",
+    "path": "/TheReports/Acceptions",
+    "component": "/home/pedram/Projects/FardaClient/pages/TheReports/Acceptions.vue",
+    "chunkName": "pages/TheReports/Acceptions",
+    "_name": "_06d0c6e5"
+  },
+  {
+    "name": "TheReports-OcasionalService",
+    "path": "/TheReports/OcasionalService",
+    "component": "/home/pedram/Projects/FardaClient/pages/TheReports/OcasionalService.vue",
+    "chunkName": "pages/TheReports/OcasionalService",
+    "_name": "_7447977a"
+  },
+  {
+    "name": "TheServices-assist",
+    "path": "/TheServices/assist",
+    "component": "/home/pedram/Projects/FardaClient/pages/TheServices/assist.vue",
+    "chunkName": "pages/TheServices/assist",
+    "_name": "_fc3a73b0"
+  },
+  {
+    "name": "TheServices-HomeService",
+    "path": "/TheServices/HomeService",
+    "component": "/home/pedram/Projects/FardaClient/pages/TheServices/HomeService.vue",
+    "chunkName": "pages/TheServices/HomeService",
+    "_name": "_78289307"
+  },
+  {
+    "name": "TheServices-TheReserve",
+    "path": "/TheServices/TheReserve",
+    "component": "/home/pedram/Projects/FardaClient/pages/TheServices/TheReserve.vue",
+    "chunkName": "pages/TheServices/TheReserve",
+    "_name": "_9733132c"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/pedram/Projects/FardaClient/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_339df0ba"
+  }
+]

@@ -1,0 +1,17 @@
+/* general css stylesheet */
+@font-face {
+    font-family: iransanse;
+    src: url("~assets/fonts/IRANSansWebFaNum.ttf");
+}
+
+body {
+    font-family: iransanse !important;
+    direction: rtl;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none !important;   
+}
+
